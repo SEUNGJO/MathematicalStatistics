@@ -35,7 +35,8 @@ lambda_bootstrap
 
 hist(lambda_bootstrap)
 
-#We need a 95% CI for lambda:  find the 2.5 percentile and 97.5 percentile #of the distribution of lambda_hat:
+#We need a 95% CI for lambda:  find the 2.5 percentile and 97.5 percentile 
+#of the distribution of lambda_hat:
 
 quantile(lambda_bootstrap, c(0.025, 0.975))
 
@@ -44,7 +45,8 @@ quantile(lambda_bootstrap, c(0.025, 0.975))
 
 
 
-#B. If you don't know the distribution from where the sample was taken.  #Then treat your data as the population and take many samples of size n with #replacement:
+#B. If you don't know the distribution from where the sample was taken.  
+#Then treat your data as the population and take many samples of size n with #replacement:
 
 data <- c(11.96, 5.03, 67.40, 16.07, 31.50, 7.73, 11.10, 22.38, 17.99,   36.72, 12.73, 33.81, 10.99,  72.70, 89.55, 48.96, 3.06, 30.33, 80.43,   56.14)
 
