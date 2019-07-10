@@ -15,7 +15,8 @@ hist(yy)
 sum(yy<=80)/5000
 
 #Find the theoretical probability:
-#We have seen that the minimum follows the exponential distribution with parameter lambda=2/100=1/50.  Therefore the probability that the system fails within 80 hours is:
+#We have seen that the minimum follows the exponential distribution with parameter lambda=2/100=1/50.  
+#Therefore the probability that the system fails within 80 hours is:
 
 1-exp(-(1/50)*80)
 
