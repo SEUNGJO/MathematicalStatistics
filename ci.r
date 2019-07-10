@@ -1,6 +1,7 @@
 #Bootstrap confidence intervals:
 
-#A.  If you know the distribution from where the sample was taken:  Suppose #X1, ..., Xn from exponential with parameter lambda.
+#A.  If you know the distribution from where the sample was taken:  Suppose 
+#X1, ..., Xn from exponential with parameter lambda.
 data <- c(11.96, 5.03, 67.40, 16.07, 31.50, 7.73, 11.10, 22.38, 17.99,   36.72, 12.73, 33.81, 10.99,  72.70, 89.55, 48.96, 3.06, 30.33, 80.43,   56.14)
 
 n <- length(data)
@@ -8,7 +9,8 @@ mean(data)
 #Estimate of lambda:
 lambda_hat <- 1/mean(data)
 
-#Now we draw many samples of size n from an exponential distribution with #parameter lambda_hat:
+#Now we draw many samples of size n from an exponential distribution with 
+#parameter lambda_hat:
 
 x <- rexp(n, lambda_hat)
 lambda_hat <- 1/mean(x)
