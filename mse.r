@@ -1,3 +1,5 @@
+#R commands for MSE (three different estimators for p). 
+
 p <- seq(0,1,.01)
 n <- 100
 
