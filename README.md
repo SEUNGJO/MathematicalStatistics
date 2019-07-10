@@ -1,1 +1,1 @@
-# ucla stats 100B course Mathematical statistics with R studio
+# ucla stats 100B course Mathematical Statistics with R studio
