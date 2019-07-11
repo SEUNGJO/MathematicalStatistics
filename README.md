@@ -1,1 +1,1 @@
-# ucla Mathematical Statistics with R studio
+# Ucla Mathematical Statistics with R studio
